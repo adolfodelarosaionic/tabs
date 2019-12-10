@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Calcular Letra DNI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-input type="number" [(ngModel)]="numeroDNI" placeholder="Introduce DNI"></ion-input>
+    <ion-button expand="block" (click)="calcularLetraDNI()">Calcular Letra</ion-button>
+  </div>
+</ion-content>
